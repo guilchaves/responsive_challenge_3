@@ -22,11 +22,6 @@
   cursor: pointer;
 }
 
-.active {
-  font-weight: 700;
-  border-bottom: 0.125rem solid var(--white);
-}
-
 .menu__nav___link:hover {
   transform: translateY(-3px);
 }

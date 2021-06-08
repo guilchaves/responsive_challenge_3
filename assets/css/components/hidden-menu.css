@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.teste {
+.hidden-menu__content___esc {
   align-items: flex-end;
   margin-top: 1.5rem;
   margin-left: 22rem;
@@ -47,4 +47,7 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hidden-menu__content___esc {
+    margin-left: 45rem;
+  }
 }

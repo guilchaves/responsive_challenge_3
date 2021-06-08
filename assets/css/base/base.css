@@ -8,6 +8,11 @@ body {
   color: var(--white);
 }
 
+.active {
+  font-weight: 700;
+  border-bottom: 0.125rem solid var(--white);
+}
+
 @media (min-width: 1024px) {
   main {
     display: flex;
