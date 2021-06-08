@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 3.75rem;
+  margin-bottom: 1.5rem;
+
+  font-family: var(--montserrat);
+  font-weight: 500;
+  font-size: 0.875rem;
+
+  color: var(--grey);
+}
+
+.footer__user {
+  font-family: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+}

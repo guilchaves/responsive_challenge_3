@@ -1,9 +1,11 @@
 .product {
+  display: flex;
   margin-top: 1.5rem;
   margin-left: var(--mg-left-right);
   margin-right: var(--mg-left-right);
 }
 
 .product__img {
+  z-index: -1;
   width: 100%;
 }
