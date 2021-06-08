@@ -22,9 +22,9 @@
   cursor: pointer;
 }
 
-.menu__nav___link:first-of-type {
+.active {
   font-weight: 700;
-  border-bottom: 2px solid var(--white);
+  border-bottom: 0.125rem solid var(--white);
 }
 
 .menu__nav___link:hover {

@@ -1,0 +1,50 @@
+.hidden-menu {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+
+  z-index: 2;
+
+  top: 0;
+  left: 0;
+
+  background-color: var(--coal);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.hidden-menu__content {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  align-items: center;
+}
+
+.teste {
+  align-items: flex-end;
+  margin-top: 1.5rem;
+  margin-left: 22rem;
+  margin-right: 1rem;
+  margin-bottom: 8rem;
+}
+
+.hidden-menu__content___link {
+  margin-top: 2rem;
+
+  font-family: var(--montserrat);
+  font-size: 1.125rem;
+  text-transform: capitalize;
+
+  box-sizing: border-box;
+  width: fit-content;
+}
+
+.menu-act {
+  font-weight: 700;
+  border-bottom: 0.125rem solid var(--white);
+}
+
+@media screen and (min-width: 768px) {
+}

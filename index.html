@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/base/base.css" />
+    <link rel="stylesheet" href="./assets/css/components/hidden-menu.css" />
     <link rel="stylesheet" href="./assets/css/components/menu.css" />
     <link rel="stylesheet" href="./assets/css/components/content.css" />
     <link rel="stylesheet" href="./assets/css/components/product.css" />
@@ -19,16 +20,27 @@
   </head>
   <body>
     <header>
+      <div id="hidden" class="hidden-menu">
+        <div class="hidden-menu__content">
+          <a href="#" id="menu-exit" class="teste">
+            <span class="material-icons hidden-menu__exit">close</span>
+          </a>
+          <a href="#" class="hidden-menu__content___link menu-act">home</a>
+          <a href="#" class="hidden-menu__content___link">collection</a>
+          <a href="#" class="hidden-menu__content___link">about</a>
+          <a href="#" class="hidden-menu__content___link">contact</a>
+        </div>
+      </div>
       <nav class="menu">
         <p class="menu__logo">this interior</p>
         <div class="menu__nav">
-          <a href="#" class="menu__nav___link">home</a>
+          <a href="#" class="menu__nav___link active">home</a>
           <a href="#" class="menu__nav___link">collection</a>
           <a href="#" class="menu__nav___link">about</a>
           <a href="#" class="menu__nav___link">contact</a>
         </div>
         <a href="#" alt="menu button">
-          <span class="menu__icon material-icons">menu</span>
+          <span class="menu__icon material-icons" id="menu">menu</span>
         </a>
       </nav>
     </header>
@@ -70,9 +82,13 @@
     </main>
     <footer class="footer">
       <p class="footer__info">
-        created by <span class="footer__user">guilchaves</span> -
-        devChallenges.io
+        created by
+        <a href="https://github.com/guilchaves/" class="footer__user"
+          >guilchaves</a
+        >
+        - devChallenges.io
       </p>
     </footer>
+    <script src="assets/script/script.js"></script>
   </body>
 </html>
