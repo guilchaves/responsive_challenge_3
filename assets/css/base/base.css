@@ -8,6 +8,11 @@ body {
   color: var(--white);
 }
 
+.container {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
 @media (min-width: 1024px) {
   main {
     display: flex;

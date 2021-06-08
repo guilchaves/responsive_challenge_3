@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: 1.25rem;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
+  margin-left: var(--mg-left-right);
+  margin-right: var(--mg-left-right);
 }
 
 .nav-menu__logo {
@@ -11,6 +11,8 @@
   font-weight: 200;
   font-size: 0.875rem;
   text-transform: uppercase;
+
+  min-width: 6.8rem;
 
   box-sizing: border-box;
   border: 1px solid var(--white);
