@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://i.ibb.co/WkBhZpL/frame-generic-dark-2.png)
 
 
 Static vanilla webpage built as a challenge from <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">devchallenges.io</a>. My focus is to build simples projects using the best coding practices in order to enhance my frontend skills.
