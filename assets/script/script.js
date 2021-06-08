@@ -1,11 +1,8 @@
-console.log('quack quack')
-
 const menu = document.getElementById('menu')
 const exit = document.getElementById('menu-exit')
 const hiddenMenu = document.getElementById('hidden')
 
 menu.addEventListener('click', (event) => {
-  console.log('clicked')
   event.preventDefault()
   openNav()
 })
