@@ -32,3 +32,26 @@
 .content__more___read {
   margin-right: var(--mg-left-right);
 }
+
+@media screen and (min-width: 1024px) {
+  .content {
+    margin-top: 14rem;
+  }
+}
+
+@media screen and (min-width: 1044px) {
+  .content {
+    margin-top: 17rem;
+    margin-left: 4.75rem;
+  }
+
+  .content__title {
+    font-size: 3rem;
+    line-height: 3.84rem;
+  }
+
+  .content__info {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+  }
+}

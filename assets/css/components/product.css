@@ -2,10 +2,26 @@
   display: flex;
   margin-top: 1.5rem;
   margin-left: var(--mg-left-right);
-  margin-right: var(--mg-left-right);
 }
 
 .product__img {
+  justify-content: center;
+  width: 93vw;
   z-index: -1;
-  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .product {
+    margin-top: 9.5rem;
+  }
+
+  .product__img {
+    box-sizing: border-box;
+
+    margin-left: 5.25rem;
+
+    width: 55vw;
+
+    margin-right: 4rem;
+  }
 }

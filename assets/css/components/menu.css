@@ -7,6 +7,30 @@
   margin-right: var(--mg-left-right);
 }
 
+.menu__nav {
+  display: none;
+  font-family: var(--montserrat);
+}
+
+.menu__nav___link {
+  font-size: 1.125rem;
+  font-weight: 500;
+
+  align-items: initial;
+  text-transform: capitalize;
+
+  cursor: pointer;
+}
+
+.menu__nav___link:first-of-type {
+  font-weight: 700;
+  border-bottom: 2px solid var(--white);
+}
+
+.menu__nav___link:hover {
+  transform: translateY(-3px);
+}
+
 .menu__logo {
   font-family: var(--crimson-pro);
   font-weight: 200;
@@ -27,4 +51,25 @@
   font-size: 36px;
 
   width: 1.75rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    margin-top: 2.625rem;
+    margin-left: 4.8rem;
+  }
+
+  .menu__icon {
+    display: none;
+  }
+
+  .menu__nav {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+
+    margin-left: 28rem;
+  }
 }
