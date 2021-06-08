@@ -1,0 +1,9 @@
+.product {
+  margin-top: 1.5rem;
+  margin-left: var(--mg-left-right);
+  margin-right: var(--mg-left-right);
+}
+
+.product__img {
+  width: 100%;
+}
