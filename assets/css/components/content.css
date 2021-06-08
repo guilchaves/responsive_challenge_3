@@ -1,7 +1,4 @@
 .content {
-  display: flex;
-  flex-direction: column;
-
   margin-top: 2.375rem;
   margin-left: var(--mg-left-right);
 }
@@ -17,22 +14,5 @@
 
   font-family: var(--montserrat);
   font-weight: 400;
-  font-size: 0.875rem;
-
-  line-height: 1rem;
-}
-
-.content__more {
-  display: flex;
-  margin-top: 1.5rem;
-
-  font-family: var(--montserrat);
-  font-weight: 700;
-  font-size: 0.875rem;
-
-  align-items: center;
-}
-
-.content__more___text {
-  margin-right: 0.875rem;
+  font-style: 0.875rem;
 }

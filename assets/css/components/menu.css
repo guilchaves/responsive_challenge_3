@@ -1,20 +1,26 @@
-.nav-menu {
+.menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 1.25rem;
   margin-left: var(--mg-left-right);
   margin-right: var(--mg-left-right);
 }
 
-.nav-menu__logo {
+.menu__logo {
   font-family: var(--crimson-pro);
   font-weight: 200;
   font-size: 0.875rem;
   text-transform: uppercase;
-
-  min-width: 6.8rem;
+  line-height: 1rem;
 
   box-sizing: border-box;
+
   border: 1px solid var(--white);
-  padding: 8px 9px;
+  padding: 0.5rem;
+  min-width: fit-content;
+}
+
+.menu__icon {
+  margin-left: -0.75rem;
 }
