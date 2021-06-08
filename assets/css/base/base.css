@@ -1,0 +1,17 @@
+@import url('./_reset.css');
+@import url('./_variables.css');
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  background-color: var(--coal);
+  color: var(--white);
+}
+
+@media (min-width: 1024px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
