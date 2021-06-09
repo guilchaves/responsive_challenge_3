@@ -12,7 +12,7 @@
   font-family: var(--montserrat);
 }
 
-.menu__nav___link {
+.menu__link {
   font-size: 1.125rem;
   font-weight: 500;
 
@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-.menu__nav___link:hover {
+.menu__link:hover {
   transform: translateY(-3px);
 }
 

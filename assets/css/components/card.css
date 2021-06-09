@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.card__top___pic {
+.card__pic {
   margin-top: 1rem;
   margin-left: 1.5rem;
 
@@ -29,7 +29,7 @@
   height: 68%;
 }
 
-.card__top___info {
+.card__info {
   margin-top: 1rem;
 
   font-family: var(--montserrat);
@@ -39,12 +39,12 @@
   margin-left: 1rem;
 }
 
-.card__top___info____title {
+.card___title {
   font-size: 0.75rem;
   line-height: 0.875rem;
 }
 
-.card__top___info____role {
+.card__role {
   font-size: 0.625rem;
   line-height: 0.75rem;
 

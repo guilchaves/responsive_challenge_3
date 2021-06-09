@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-.hidden-menu__content___esc {
+.hidden-menu__esc {
   align-items: flex-end;
   margin-top: 1.5rem;
   margin-left: 22rem;
@@ -30,7 +30,7 @@
   margin-bottom: 8rem;
 }
 
-.hidden-menu__content___link {
+.hidden-menu__link {
   margin-top: 2rem;
 
   font-family: var(--montserrat);
@@ -47,7 +47,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hidden-menu__content___esc {
+  .hidden-menu__esc {
     margin-left: 45rem;
   }
 }
